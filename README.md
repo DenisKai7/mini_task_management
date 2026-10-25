@@ -36,8 +36,6 @@ Frontend berjalan di: `http://localhost:5173` (otomatis mem-proxy `/api` ke back
 
 ## 2. Arsitektur Solusi
 
-Solusi dibangun dengan memprioritaskan prinsip **YAGNI (You Aren't Gonna Need It)**, kesederhanaan, dan kejelasan data:
-
 ```
 [ Frontend: React + TS (Vite) ]
       │  HTTP REST (JSON)
